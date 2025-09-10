@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>AGL Volei</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
+                <!-- Aqui você pode colocar uma imagem ou logo -->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p id="bv">Seja Bem-Vindo(a) de Novo.<br></p>
-                <p id="ambiente">  Faça o seu login para acessar seu ambiente.</p>
+                <p id="ambiente">Faça o seu login para acessar seu ambiente.</p>
+
+                <form action="login.php" method="post">
                     <div id="usu">
-                        <form action="login.php" method="post"></form>
-                        <label for="iusu">Usuário:<br></label>
+                        <label for="isu">Usuário:<br></label>
                         <input type="text" name="usu" id="isu" required placeholder="usuário" minlength="10" maxlength="25" autocomplete="username">
                     </div>
+
                     <div id="sen">
                         <label for="isenha">Senha:<br></label>
-                        <input type="password" name="senha id="isenha" required maxlength="8" placeholder="no minimo 8 caracteres" autocomplete="current-password">
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="8" placeholder="no mínimo 8 caracteres" autocomplete="current-password">
                     </div>
+
+                    <div id="btn">
+                        <button type="submit">Entrar</button>
+                    </div>
+                </form>
+
             </div>
         </section>
     </main>
