@@ -15,7 +15,7 @@ body, html {
 }
 
  h1{
-    padding-left: 30%;
+    padding-left: 35%;
  }
  
  #bv{ 
@@ -56,7 +56,7 @@ section#login > div#imagem {
     background:black url(../Mobile-First/logo.jpg.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
-    height: 220px;
+    height: 225px;
   
     
 }
